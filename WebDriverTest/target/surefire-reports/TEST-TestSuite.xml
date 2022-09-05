@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="1,911.578" errors="0" skipped="2">
+  <properties>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vijay\eclipse-workspace\New Configuration\WebDriverTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\vijay\eclipse-workspace\New Configuration\WebDriverTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vijay\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\vijay\eclipse-workspace\New Configuration\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4460511360715183178.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\apache-maven-3.8.6\bin;C:\Users\vijay\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\vijay"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="vijay"/>
+    <property name="java.class.path" value="C:\Users\vijay\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\vijay\eclipse-workspace\New Configuration\WebDriverTest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="example.NewTest" name="beforeTest" time="1,911.577">
+    <failure message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+dules/TelemetryArchive.jsm:101:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:61:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1011:36
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1229:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1236:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1253:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:251:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1681:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:367:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1077:38
+setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:258:17
+Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:767:20
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:42
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;VijayKanth&apos;, ip: &apos;192.168.0.57&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+dules/TelemetryArchive.jsm:101:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:61:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1011:36
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1229:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1236:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1253:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:251:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1681:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:367:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1077:38
+setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:258:17
+Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:767:20
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:42
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;VijayKanth&apos;, ip: &apos;192.168.0.57&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at example.NewTest.beforeTest(NewTest.java:22)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+dules/TelemetryArchive.jsm:101:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:61:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1011:36
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1229:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1236:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1253:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:251:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1681:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:367:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1077:38
+setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:258:17
+Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:767:20
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:42
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 34 more
+</failure>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+dules/TelemetryArchive.jsm:101:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:61:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1011:36
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1229:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1236:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1253:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:251:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1681:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:367:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1077:38
+setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:258:17
+Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:767:20
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:719:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:527:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:466:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1565:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1585:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:17:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:42
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 719: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at example.NewTest.beforeTest(NewTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Sep 04, 2022 5:27:19 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@32f0fba8
+</system-err>
+  </testcase>
+  <testcase classname="example.NewTest" name="testEasy" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="example.NewTest" name="afterTest" time="0.001">
+    <skipped/>
+  </testcase>
+</testsuite>
